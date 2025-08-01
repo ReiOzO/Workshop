@@ -32,13 +32,13 @@ Việc tạo AWS EventBridge là cần thiết để xây dựng các hệ thố
 - Đăng nhập AWS Console
 - Vào dịch vụ **AWS EventBridge**
 
-![MFA](/images/4/01.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/4/01.jpg)
 
 ### Bước 2: Tạo Rule mới
 - Chọn **Rules** ở menu bên trái
 - Nhấn **Create rule**
 
-![MFA](/images/4/02.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/4/02.jpg)
 
 ### Bước 3: Thiết lập Rule
 - **Name:** feature-flag-rollback-trigger
@@ -46,7 +46,7 @@ Việc tạo AWS EventBridge là cần thiết để xây dựng các hệ thố
 - **Event bus:** default
 - **Rule type:** Rule with an event pattern
 
-![MFA](/images/4/03.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/4/03.jpg)
 
 ### Bước 4: Chọn Event pattern
 - **Event pattern** chọn **Custom pattern (JSON editor)**
@@ -69,18 +69,18 @@ Việc tạo AWS EventBridge là cần thiết để xây dựng các hệ thố
 }
 ```
 
-![MFA](/images/4/04.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/4/04.jpg)
 
 ### Bước 5: Thêm Target
 - **Target type:** AWS service
 - **Select a target:** Lambda function
 - **Function:** feature-flag-rollback
-![MFA](/images/4/05.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/4/05.jpg)
 
 ### Bước 6: Review & Create
 - Kiểm tra lại thông tin.
 - Nhấn **Create rule**
-![MFA](/images/4/06.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/4/06.jpg)
 
 
 > **Lưu ý:** Rule này sẽ tự động trigger Lambda mỗi khi alarm có tên bắt đầu bằng AppConfig- hoặc FeatureFlag- chuyển sang trạng thái ALARM.
