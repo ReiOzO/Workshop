@@ -18,12 +18,12 @@ pre : " <b> 6.2 </b> "
 - Chọn **Dashboards** ở menu bên trái
 - Nhấn **Create dashboard**
 
-![MFA](/images/6/013.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/013.jpg)
 
 ### Bước 3: Đặt tên cho dashboard
 - Nhập tên dashboard (ví dụ: **FeatureFlags-Monitoring**) và nhấn **Create dashboard**
 
-![MFA](/images/6/014.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/014.jpg)
 
 ### Bước 4: Thêm widget vào dashboard
 - Chọn loại widget (Line, Stacked area, Number, Text...)
@@ -42,10 +42,10 @@ pre : " <b> 6.2 </b> "
     - Statistic: **Average**
 4. Click **Create widget**
 
-![MFA](/images/6/015.jpg?featherlight=false&width=90pc)
-![MFA](/images/6/016.jpg?featherlight=false&width=90pc)
-![MFA](/images/6/017.jpg?featherlight=false&width=90pc)
-![MFA](/images/6/018.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/015.jpg)
+![MFA](/Workshop/images/6/016.jpg)
+![MFA](/Workshop/images/6/017.jpg)
+![MFA](/Workshop/images/6/018.jpg)
 
 #### Widget 2 - Deployment Monitoring:
 1. Click **Add widget** > Chọn **Metrics** > **Line**
@@ -59,7 +59,7 @@ pre : " <b> 6.2 </b> "
     - Statistic: **Sum**
 4. Click **Create widge**
 
-![MFA](/images/6/019.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/019.jpg)
 
 #### Widget 3 - Resource Count:
 1. Click **Add widget** > Chọn **Metrics** > **Number**
@@ -72,8 +72,8 @@ pre : " <b> 6.2 </b> "
     - Statistic: **Average**
 4. Click **Create widge**
 
-![MFA](/images/6/020.jpg?featherlight=false&width=90pc)
-![MFA](/images/6/021.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/020.jpg)
+![MFA](/Workshop/images/6/021.jpg)
 
 #### Widget 4 - Configuration Changes:
 1. Click **Add widget** > Chọn **Metrics** > **Line**
@@ -86,7 +86,7 @@ pre : " <b> 6.2 </b> "
     - Statistic: **Sum**
 4. Click **Create widge**
 
-![MFA](/images/6/022.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/022.jpg)
 
 #### Widget 5 - RollbackTriggered:
 1. Click **Add widget** > Chọn **Metrics** > **Number**
@@ -99,12 +99,12 @@ pre : " <b> 6.2 </b> "
     - Statistic: **Average**
 4. Click **Create widge**
 
-![MFA](/images/6/024.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/024.jpg)
 
 ### Bước 5: Lưu dashboard
 - Nhấn **Save dashboard** để hoàn tất
 
-![MFA](/images/6/025.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/025.jpg)
 
 > **Lưu ý:** Bạn có thể thêm nhiều widget để giám sát nhiều dịch vụ và chỉ số khác nhau trên cùng một dashboard.
 
