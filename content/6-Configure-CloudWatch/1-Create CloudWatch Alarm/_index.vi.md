@@ -14,22 +14,22 @@ pre : " <b> 6.1 </b> "
 - Đăng nhập AWS Console
 - Vào dịch vụ **CloudWatch**
 
-![MFA](/images/6/001.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/001.jpg)
 
 ### Bước 2: Chọn mục Alarms
 - Chọn **Alarms** > **All alarms** ở menu bên trái
 - Nhấn **Create alarm**
 
-![MFA](/images/6/002.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/002.jpg)
 
 ### Bước 3: Chọn chỉ số cần giám sát
 - Chọn **Select metric**
 - Chọn metric phù hợp **Usage > By AWS Resource** (ví dụ: error rate, latency, hoặc bất kỳ metric nào bạn muốn giám sát để rollback).
 - Nhấn **Select metric**
 
-![MFA](/images/6/003.jpg?featherlight=false&width=90pc)
-![MFA](/images/6/004.jpg?featherlight=false&width=90pc)
-![MFA](/images/6/005.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/003.jpg)
+![MFA](/Workshop/images/6/004.jpg)
+![MFA](/Workshop/images/6/005.jpg)
 
 ### Bước 4: Đặt điều kiện cảnh báo
 <!-- - Đặt điều kiện alarm (ví dụ: nếu error rate > 10 trong 5 phút). -->
@@ -49,8 +49,8 @@ pre : " <b> 6.1 </b> "
     - Missing data treatment: Treat missing data as missing
 4. Click "Next" để tiếp tục
 
-![MFA](/images/6/006.jpg?featherlight=false&width=90pc)
-![MFA](/images/6/007.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/006.jpg)
+![MFA](/Workshop/images/6/007.jpg)
 
 ### Bước 5: Thiết lập hành động khi cảnh báo
 - Chọn gửi thông báo qua SNS topic hoặc email
@@ -59,33 +59,33 @@ pre : " <b> 6.1 </b> "
     - Topic name: **Default_CloudWatch_Alarms_Topic**
     - Email: **Your_email** (Nhập email muốn nhập cảnh báo)
 - Có thể chọn tự động thực hiện hành động (stop, terminate instance...)
-![MFA](/images/6/008.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/008.jpg)
 
 - Ở phần Actions, chọn Add Lambda action
     - Alarm state trigger: **In alarm**
     - Function Type: **Select Lambda Function from the signed in account**
     - Choose a function: **feature-flag-rollback** (đã tạo trước đó)
 
-![MFA](/images/6/009.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/009.jpg)
 
 ### Bước 6: Đặt tên và tạo alarm
 - Đặt tên cho alarm: **AppConfig-GetHostedConfig-HighCallCount**
 - Kiểm tra lại thông tin và nhấn **Create alarm**
-![MFA](/images/6/031.jpg?featherlight=false&width=90pc)
-![MFA](/images/6/011.jpg?featherlight=false&width=90pc)
-![MFA](/images/6/012.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/031.jpg)
+![MFA](/Workshop/images/6/011.jpg)
+![MFA](/Workshop/images/6/012.jpg)
 
 > **Lưu ý:** Bạn có thể tạo nhiều alarm cho nhiều chỉ số khác nhau để giám sát toàn diện hệ thống.
 
 **Kết quả**
-![MFA](/images/6/026.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/026.jpg)
 
 ### Bước 7:Xác nhận Email
 - Đăng nhập vào Email bạn đã dùng để thiết lập cảnh báo trước đó. Bạn sẽ thấy một email được gửi tới từ AWS Notification.
 - Ấn chọn **Confirm subscription**.
 
-![MFA](/images/6/030.jpg?featherlight=false&width=90pc)
-![MFA](/images/6/029.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/6/030.jpg)
+![MFA](/Workshop/images/6/029.jpg)
 
 🔒 Security Note: Việc xác nhận đăng ký SNS không chỉ kích hoạt thông báo mà còn là một biện pháp bảo mật, đảm bảo rằng chỉ những người dùng được ủy quyền mới nhận được thông báo về trạng thái hệ thống.
 
