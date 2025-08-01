@@ -23,20 +23,20 @@ AWS IAM cho phép bạn:
 1. Đăng nhập vào AWS Management Console
 2. Truy cập vào dịch vụ **IAM** (Identity and Access Management)
 
-![MFA](/Workshop/images/2/001.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/2/001.jpg)
 
 3. Chọn "**Users**" ở menu bên trái
 4. Chọn user của bạn (hoặc tạo user mới nếu chưa có)
 5. Chọn tab "**Security credentials**"
 6. Nhấp vào "**Create access key**"
 
-![MFA](/images/2/002.jpg?featherlight=false&width=90pc)
-![MFA](/images/2/003.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/2/002.jpg)
+![MFA](/Workshop/images/2/003.jpg)
 
 7. Lưu lại "**Access key**" và "**Secret access key**"
 8. Tải xuống file .csv chứa access key (nếu cần)
 9. Nhấn "**Done**" để hoàn thành
-![MFA](/images/2/004.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/2/004.jpg)
 
 **Lưu ý quan trọng**: Secret Access Key sẽ chỉ được hiển thị một lần tại thời điểm tạo. Hãy đảm bảo lưu trữ nó ở nơi an toàn.
 
