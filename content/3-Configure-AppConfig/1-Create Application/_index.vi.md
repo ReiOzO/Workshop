@@ -8,7 +8,7 @@ pre : " <b> 3.1 </b> "
 
 1. Đăng nhập vào [AWS Console](https://aws.amazon.com/console/) -> Search **AppConfig** -> Click **AWS AppConfig**.
 
-![MFA](/images/3/0001.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/3/0001.jpg)
 
 2. Click **Create application**.
 3. Điền thông tin:
@@ -16,4 +16,4 @@ pre : " <b> 3.1 </b> "
    - Description: **Feature flag management for my project** (có thể để trống)
    - Click **Create application**
 
-![MFA](/images/3/0012.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/3/0012.jpg)
