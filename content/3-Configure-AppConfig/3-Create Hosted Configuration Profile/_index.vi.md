@@ -60,5 +60,5 @@ pre : " <b> 3.3 </b> "
 ### Step 3: Specify configuration data
 - Review and save.
 
-![MFA](/images/3/0018.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/3/0018.jpg)
 
