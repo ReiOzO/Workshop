@@ -15,7 +15,7 @@ pre: " <b> 5.2 </b> "
 - **Key**: PROFILE_ID | **Value**: [ID của configuration profile]
 - Click **Save**
 
-![MFA](/images/5/13.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/5/13.jpg)
 
 1.	Lấy APP_ID:
     - Vào AWS Console > AppConfig
@@ -35,5 +35,5 @@ pre: " <b> 5.2 </b> "
     - URL sẽ có dạng:.../configurationprofiles/def456...
     - Đoạn def456... chính là PROFILE_ID
 
-![MFA](/images/5/15.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/5/15.jpg)
 
