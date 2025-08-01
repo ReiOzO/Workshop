@@ -8,7 +8,7 @@ pre: " <b> 1. </b> "
 
 ## Sơ đồ tổng quan luồng hoạt động
 
-![MFA](images/1/sodotongquan.png?featherlight=false&width=90pc)
+![MFA]({{< relURL "images/1/sodotongquan.png" >}})
 
 ## Tổng quát về dự án Feature Flag Management
 
