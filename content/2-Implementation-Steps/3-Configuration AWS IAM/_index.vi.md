@@ -23,7 +23,7 @@ AWS IAM cho phép bạn:
 1. Đăng nhập vào AWS Management Console
 2. Truy cập vào dịch vụ **IAM** (Identity and Access Management)
 
-![MFA](/images/2/001.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/2/001.jpg?featherlight=false&width=90pc)
 
 3. Chọn "**Users**" ở menu bên trái
 4. Chọn user của bạn (hoặc tạo user mới nếu chưa có)
