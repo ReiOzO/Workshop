@@ -15,14 +15,14 @@ Việc tạo Trigger và Lambda Function cho Automated Rollback giúp hệ thố
 - Đăng nhập AWS Console
 - Vào dịch vụ **Lambda**
 
-![MFA](/images/5/01.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/5/01.jpg)
 
 ### Bước 2: Chọn mục Functions
 
 - Chọn **Functions** ở menu bên trái
 - Nhấn **Create function**
 
-![MFA](/images/5/02.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/5/02.jpg)
 
 1. Điền thông tin:
    - Chọn **Author from scratch**
@@ -31,7 +31,7 @@ Việc tạo Trigger và Lambda Function cho Automated Rollback giúp hệ thố
    - Architecture: x86_64
 2. Click "Create function"
 
-![MFA](/images/5/03.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/5/03.jpg)
 
 ### Bước 3: Deloy code
 
@@ -335,5 +335,5 @@ Việc tạo Trigger và Lambda Function cho Automated Rollback giúp hệ thố
 }
 ```
 
-![MFA](/images/5/04.jpg?featherlight=false&width=90pc)
-![MFA](/images/5/05.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/5/04.jpg)
+![MFA](/Workshop/images/5/05.jpg)
