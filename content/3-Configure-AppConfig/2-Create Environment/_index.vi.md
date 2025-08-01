@@ -8,10 +8,10 @@ pre : " <b> 3.2 </b> "
 
 1. Trong application vừa tạo, chọn tab **Environments**.
 2. Click **Create environment**.
-    ![MFA](/images/3/0013.jpg?featherlight=false&width=90pc)
+    ![MFA](/Workshop/images/3/0013.jpg)
 3. Điền thông tin:
     - Name: **production**
     - Description: **Production-environment**
     - Click **Create environment**
 
-    ![MFA](/images/3/0014.jpg?featherlight=false&width=90pc)
+    ![MFA](/Workshop/images/3/0014.jpg)
