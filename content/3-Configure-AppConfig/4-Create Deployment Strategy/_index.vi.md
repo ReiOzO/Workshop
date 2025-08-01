@@ -9,7 +9,7 @@ pre : " <b> 3.4 </b> "
 1. Chọn tab **Deployment strategies**
 2. Click **Create deployment strategy**
 
-![MFA](/images/3/0020.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/3/0020.jpg)
 
 3. Điền thông tin:
     - Name: **workshop-gradual-rollout**
@@ -21,14 +21,14 @@ pre : " <b> 3.4 </b> "
 
 4. Click **Create deployment strategy**
 
-![MFA](/images/3/0019.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/3/0019.jpg)
 
 ### Deploy Configuration
 
 1. Quay lại Configuration profile
 2. Click **Start deployment**
 
-![MFA](/images/3/0021.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/3/0021.jpg)
 
 3. Chọn:
     - Environment: **production**
@@ -37,7 +37,7 @@ pre : " <b> 3.4 </b> "
 
 4. Click **Start deployment**
 
-![MFA](/images/3/0022.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/3/0022.jpg)
 
 #### Deployment sẽ diễn ra theo timeline (Lý thuyết)
 - ⏰ 0 min: Deployment starts (0%)
@@ -49,5 +49,5 @@ pre : " <b> 3.4 </b> "
 
 5. Deployment theo timeline thực tế
 
-![MFA](/images/3/0023.jpg?featherlight=false&width=90pc)
-![MFA](/images/3/0024.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/3/0023.jpg)
+![MFA](/Workshop/images/3/0024.jpg)
