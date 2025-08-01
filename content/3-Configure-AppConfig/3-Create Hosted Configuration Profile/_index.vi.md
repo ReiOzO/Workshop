@@ -11,19 +11,19 @@ pre : " <b> 3.3 </b> "
 1. Trong application, chọn tab **Configuration profiles**
 2. Click **Create configuration profile**
 
-![MFA](/images/3/0015.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/3/0015.jpg)
 
 ### Step 1: Select configuration type
 - Configuration options: **Freeform configuration**
 - Configuration profile name: **FeatureFlagDemo**
 
-![MFA](/images/3/0016.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/3/0016.jpg)
 
 ### Step 2: Specify configuration data
 - Configuration definition: **AWS AppConfig hosted configuration**
 - Content: **JSON**
 
-![MFA](/images/3/0017.jpg?featherlight=false&width=90pc)
+![MFA](/Workshop/images/3/0017.jpg)
 
 ```js
 {
