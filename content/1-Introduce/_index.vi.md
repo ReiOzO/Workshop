@@ -8,7 +8,7 @@ pre: " <b> 1. </b> "
 
 ## Sơ đồ tổng quan luồng hoạt động
 
-![MFA](https://reiozo.github.io/Workshop/images/1/sodotongquan.png)
+![MFA](/Workshop/images/1/sodotongquan.png)
 
 ## Tổng quát về dự án Feature Flag Management
 
